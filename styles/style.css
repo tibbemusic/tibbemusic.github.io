@@ -1,0 +1,111 @@
+html {
+	background-color: #FFFFFF;
+	font-size: 11px; /* px means "pixels": the base font size is now 10 pixels high  */
+	font-family: "Open Sans", sans-serif; 
+}
+
+
+body {
+}
+
+h1 {
+	/*margin: 0;
+	padding: 20px 0;*/
+	color: #00539F;
+	
+	font-size: 40pt;
+	font-family: 'TruenoRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+h2 {
+	margin: 0 auto;
+	
+	font-size: 30pt;
+	font-family: 'TruenoRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+h3 {
+	margin: 0 auto;
+	color: #4700A3;
+	
+	font-size: 20pt;
+	font-family: 'TruenoRegular';
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	color: black;
+	width: 100%px;
+	font-family: 'TruenoRegular';
+	font-weight: normal; 
+	font-style: normal;
+	font-size: 16px; /* px means "pixels": the base font size is now 15 pixels high  */
+	line-height: 25px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+#NavBar{
+	background-color: #CFCFCF;
+	margin: 10px 10px 10px 10px ;
+	width: 100 %;
+	font-size: 30px;
+	text-align: center;
+	padding: 0 50px;
+	border-radius: 0.2em; /*afgeronde hoeken*/
+	border-width;
+	
+}
+#NavBar li{
+	display: inline;
+}
+
+#NavBar a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+#NavBar li:last-child a {
+  margin-right: 0;
+}
+
+#NavBar a:link, a:visited, a:focus {
+  background: none;
+}
+
+#NavBar a:hover {
+  background: #C2C2C2;
+}
+
+#MainText {
+	width: 700px;
+	/*padding: 20px 20px 20px 20px;*/
+	margin: 0px 0px 0px 50px;
+}
+
+.music-player {
+	border: 5px solid darkblue;
+	margin: 10px auto;
+}
+	
