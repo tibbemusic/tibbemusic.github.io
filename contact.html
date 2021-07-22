@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- This website was made by Tibbe Debats. email: tibbe@mailfence.com -->
+<html data-lt-installed="true"><head>
+			<meta name="robots" content="index,follow">
+			<!--style-->
+			<link href="style.css" rel="stylesheet">
+			<link href="style-form.css" rel="stylesheet">
+			<!--tekenset-->
+			<meta charset="utf-8">
+			<!--lettertype importeren-->
+			<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/trueno" type="text/css">
+			<title>Tibbemusic - Contact</title>
+			<!--icoon-->
+			<link rel="shortcut icon" type="image/jpg" href="favicon.png">
+	</head>
+	<body>
+		<h1>TibbeMusic</h1>
+		
+		<!--Navbar-->
+		<div id="NavBar">	
+			<ul>
+				<li><a href="index.html">Home</a></li><li><a href="music.html">Music</a></li><li><a href="history.html">History</a></li><li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<!--end NavBar-->
+		
+		<!--Main-->
+		<div id="Main">
+			<h2>Contact</h2>
+			<p><a href="mailto:tibbemusic@protonmail.com?subject=collaborate">Email me for collaboration</a></p>
+			<p><a href="mailto:tibbemusic@protonmail.com?subject=use">Email me to ask for permission to use music I made</a></p>
+			<p><a href="mailto:tibbemusic@protonmail.com?subject=collaborate&body=Hi, <br>I want to collaborate with you. Here you can find music I made: (soundcloud profile link here)">Email me for collaboration</a></p>
+			<p><a href="mailto:tibbemusic@protonmail.com?subject=collaborate&body=Hi, <br>I want permission to use [the music you want to use]. I want to use it for [the reason why you want to use the music]. ">Email me for collaboration</a></p>
+		</div>	
+		<div id="form">
+			 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+				<ul>
+					<li>
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="user_name">
+						<span class="error">* <?php echo $nameErr;?></span>
+					</li>
+					<li>
+						<label for="mail">Email:</label>
+						<input type="email" id="mail" name="user_email">
+						<span class="error">* <?php echo $mailErr;?></span>
+					</li>
+					<li>
+						<label for="msg">Message:</label>
+						<textarea id="msg" name="user_message" value="Hi, "></textarea>
+						<span class="error"><?php echo $msgErr;?></span>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div id="Copyright">
+			<p>&#169; 2021</p>
+		</div>
+	</body>
+</html>
