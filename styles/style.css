@@ -1,0 +1,187 @@
+/*
+html {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	font-family: "TruenoRegular", 'sans-serif'; 
+}
+
+ul {
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+*/
+
+/*
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  
+    font-size: 20px;
+	font-family: "TruenoRegular", 'sans-serif'; 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+*/
+/*
+
+
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+p {
+  color: black;
+  font-size: 100px;
+}
+
+
+
+*/
+html {
+	background-color: #FFFFFF;
+	font-size: 15px;
+	font-family: "TruenoRegular", 'sans-serif'; 
+}
+
+body {
+  font-size: 28px;
+  font-family: "TruenoRegular", "sans-serif"
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+#main {
+	margin-left: 3%;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+	color: 333333;
+}
+
+.header {
+	display: flex;
+    justify-content: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+  display: flex;
+  justify-content: center;
+  border-radius: 0.1em;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #1d1d1e;
+}

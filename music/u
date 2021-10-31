@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/trueno" type="text/css">
+    <link href="../styles/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="header">
+	<img src="../logo-no-background.png" alt="logo" width="30%">
+</div>
+
+<!-- navbar -->
+<ul>
+  <li><a href="../home">Home</a></li>
+  <li><a class="active" href="../music.html">Music</a></li>
+  <li><a href="../contact.html">Contact</a></li>
+  <li><a href="../donate.html">Donate</a></li>
+</ul>
+
+<h1>U</h1>
+<div id="main">
+<h2>about U</h2>
+<p>My second remix, but this time I had the mmpz file of the original, so it was a lot more easy. I added FX, and I added a lot of small changes, because at first there was a lot of exactly the same thing in a row. </p>
+<h2>quick facts</h2>
+<p>
+daw: both original and remix LMMS </br>key: no key. </br>genre: no genre </br>
+</p>
+
+
+<h2>listen</h2>
+
+<h3>Audiomack</h3>
+<iframe src="https://audiomack.com/embed/song/tibbemusic/u-remix?background=1&color=5320a8" scrolling="no" width="100%" height="252" scrollbars="no" frameborder="0"></iframe>
+
+<h3>Audius</h3>
+<iframe src=https://audius.co/embed/track/QNPB4?flavor=compact width="100%" height="120" allow="encrypted-media" style="border: none;"></iframe>
+
+<h3>Soundcloud</h3>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/985858894&color=%235320a8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tibbemusic" title="Tibbemusic" target="_blank" style="color: #cccccc; text-decoration: none;">Tibbemusic</a> · <a href="https://soundcloud.com/tibbemusic/somewhere-in-the-universe" title="Somewhere In The Universe" target="_blank" style="color: #cccccc; text-decoration: none;">Somewhere In The Universe</a></div>
+
+</div>
+</body>
+</html>
