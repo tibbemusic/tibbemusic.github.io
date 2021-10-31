@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/trueno" type="text/css">
+    <link href="styles/style.css" rel="stylesheet">
+	<title>Home</title>
+</head>
+<body>
+
+<div class="header">
+	<img src="logo-no-background.png" alt="logo" width="30%">
+</div>
+
+<!-- navbar -->
+<ul>
+  <li><a class="active" href="home" target="_blank" rel="noreferrer noopener">Home</a></li>
+  <li><a href="music.html" target="_blank" rel="noreferrer noopener">Music</a></li>
+  <li><a href="contact" target="_blank" rel="noreferrer noopener">Contact</a></li>
+  <li><a href="donate" target="_blank" rel="noreferrer noopener">Donate</a></li>
+</ul>
+
+<h1>Home</h1>
+<div id="main">
+<h2>about me</h2>
+<p>Hi, I am Tibbe. My biggest hobby is making music. The software I use for that is a DAW (Digital Audio Workstation) called <a href="https://lmms.io">LMMS</a>, but in the future I might be using <a href="https://ardour.org">Ardour</a>. </p>
+
+<h2>the story</h2>
+<p>I started making music begin this year (2021) (for everyone in 2025 or later, corona was still a thing back then), with a free and open source daw called LMMS. I found out about that daw when I was attempting to make a shortfilm in <a href="https://blender.org">Blender</a> (wich failed) and i wanted to make the music myself. I didn't really know how to make music back then, but as I was still learning blender, the shortfilm failed, and thus I never tried making the music. I think a few months later I heard from a friend that he was making music, so I also started making music and my first song was born. </p>
+
+
+<h3>Sticky Navigation Bar Example</h3>
+<p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
+<p>
+Distinctio maiores quia nihil magnam dolorum. Molestiae inventore similique impedit qui rerum itaque. Ut molestiae saepe eius accusantium harum. Possimus sed eveniet quia corporis. Doloremque accusamus doloremque reprehenderit ea qui voluptates sint. </br>Tempora accusamus soluta soluta velit modi quidem sed dolor. Aut doloribus laborum praesentium qui. Amet aperiam cumque animi. Culpa quia officia est inventore nostrum officia iusto. </br>Numquam voluptatem beatae quisquam. Vitae odio quo expedita soluta qui tempore. Dolorum minima quam omnis officia et totam asperiores ullam. Molestiae velit quia illo quo possimus aut voluptatem. Sed quasi fuga occaecati et a placeat. </br>Laborum illo et ipsa minus molestiae et quo et. Earum quia molestiae accusantium reprehenderit non est ipsam. Suscipit dicta explicabo eveniet. Aut natus aspernatur quas voluptas et id. Sunt iusto dicta doloribus dignissimos sunt. </br>Et consectetur enim expedita eos maiores. Architecto dolore nulla quis veritatis voluptatem. Consequatur atque vitae id dolor repellendus vel. Vitae magni recusandae voluptas. Velit cumque culpa adipisci. Nulla aut blanditiis quae id et natus.
+</P>
+</div>
+</body>
+</html>
